@@ -1,14 +1,17 @@
 {
   "name": "starwars-names-pds",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "\"# starwars-names-pds\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xz870603611/starwars-names-pds.git"
+    "url": "https://github.com/xz870603611/starwars-names-pds.git"
   },
   "author": "Small peng <xz87060361@126.com> (http://github.com/Small-peng)",
   "license": "ISC",
@@ -18,5 +21,12 @@
   "homepage": "https://github.com/xz870603611/starwars-names-pds#readme",
   "dependencies": {
     "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "commitizen": "^4.0.4",
+    "cz-conventional-changelog": "^3.1.0",
+    "mocha": "^7.1.2",
+    "semantic-release": "^17.0.7"
   }
 }
