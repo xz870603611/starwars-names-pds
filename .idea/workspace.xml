@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf95ac36-a8f3-424f-b619-0da7a79ac8ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babalrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/rollup.config.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/rollup.config.cjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/rollup.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/rollup.config.dist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/rollup.config.es6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/rollup.config.scss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_cjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_compact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_join.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_scss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/bg.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Man.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/rollup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/rollup.tool.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,46 +23,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/rollup.config.scss.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            <state relative-caret-position="81">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/rollup.config.dev.js">
+        <entry file="file://$PROJECT_DIR$/config/rollup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/rollup.tool.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/index.es.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/rollup.config.dist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="44" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/index.cjs.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -111,7 +88,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/1.0.0-public" />
+        <entry key="$PROJECT_DIR$" value="feature/1.0.1-tool" />
       </map>
     </option>
   </component>
@@ -151,8 +128,12 @@
         <option value="$PROJECT_DIR$/index_scss.js" />
         <option value="$PROJECT_DIR$/config/rollup.config.scss.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/config/rollup.config.dev.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.es.js" />
+        <option value="$PROJECT_DIR$/index.cjs.js" />
+        <option value="$PROJECT_DIR$/tool/rollup.tool.js" />
+        <option value="$PROJECT_DIR$/config/rollup.js" />
       </list>
     </option>
   </component>
@@ -190,6 +171,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.14.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -253,7 +235,7 @@
       <workItem from="1588242057000" duration="11000" />
       <workItem from="1588745864061" duration="8064000" />
       <workItem from="1588754191681" duration="7299000" />
-      <workItem from="1588816471022" duration="9533000" />
+      <workItem from="1588816471022" duration="11661000" />
     </task>
     <task id="LOCAL-00001" summary="创建仓库">
       <created>1588218106266</created>
@@ -339,22 +321,36 @@
       <option name="project" value="LOCAL" />
       <updated>1588746524397</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="rollup的基本使用">
+      <created>1588832446597</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588832446597</updated>
+    </task>
+    <task id="LOCAL-00014" summary="删除文件编写自己的rollup插件">
+      <created>1588832530619</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588832530619</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35713000" />
+    <option name="totallyTimeSpent" value="37841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="552" y="102" width="1308" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.26141733" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.26141733" />
       <window_info id="Structure" order="1" sideWeight="0.50242716" side_tool="true" weight="0.26162332" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299712" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45965418" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45965418" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,7 +358,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299712" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4855908" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35446686" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -419,25 +415,11 @@
     <MESSAGE value="删除文件重新搭建" />
     <MESSAGE value="提交 README.MD" />
     <MESSAGE value="增加gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加gitignore" />
+    <MESSAGE value="rollup的基本使用" />
+    <MESSAGE value="删除文件编写自己的rollup插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除文件编写自己的rollup插件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/rollup/dist/shared/watch-cli.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="340" column="45" selection-start-line="340" selection-start-column="45" selection-end-line="340" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rollup-plugin-babel/dist/rollup-plugin-babel.esm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="240" column="4" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rollup.config.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/rollup/bin/rollup" />
     <entry file="file://$PROJECT_DIR$/es6/dist.js" />
     <entry file="file://$PROJECT_DIR$/src/Person.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -698,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/js/dist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -716,20 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -747,10 +708,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/rollup.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/js/dist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.cjs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.es.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/rollup.tool.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/rollup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
         </state>
       </provider>
     </entry>
