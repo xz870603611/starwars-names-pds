@@ -4,7 +4,15 @@
   "description": "\"#starwars-names-pds\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:dev": "rollup -w -c  config/rollup.config.dev.js",
+    "build:dist": "rollup -c config/rollup.config.dist.js",
+    "build:scss": "rollup -c config/rollup.config.scss.js",
+    "build:es6": "rollup -c config/rollup.config.es6.js",
+    "build:cjs": "rollup -c config/rollup.config.cjs.js",
+    "build:all": "node config/rollup.config.all.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup --environment NODE_ENV:development --config config/rollup.config.js",
+    "build": "rollup --environment NODE_ENV:production --config config/rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +23,27 @@
   "bugs": {
     "url": "https://github.com/xz870603611/starwars-names-pds/issues"
   },
-  "homepage": "https://github.com/xz870603611/starwars-names-pds#readme"
+  "homepage": "https://github.com/xz870603611/starwars-names-pds#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^6.8.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "rollup": "^2.8.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-scss": "^2.4.0",
+    "rollup-plugin-sourcemaps": "^0.6.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "rollup-watch": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6"
+  }
 }
