@@ -1,0 +1,7 @@
+build/*.js
+config/*.js
+src/third/*.js
+dist_pro/static/js/**.js
+jbzfilmsdk/
+node_modules/
+**/*
