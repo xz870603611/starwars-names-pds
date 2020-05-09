@@ -1,15 +1,13 @@
 <template>
     <div id="app">
-
+        <router-view></router-view>
     </div>
 </template>
 <script>
-    import {StringTool} from 'pdstoolsdk';
     export default {
         name: 'App',
         components: {},
         mounted() {
-            console.log(StringTool.isMobile('15295159905'))
         }
     }
 </script>
