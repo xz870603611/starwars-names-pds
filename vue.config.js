@@ -6,4 +6,7 @@ module.exports = {
     indexPath: 'index.html',
     filenameHashing: true,
     productionSourceMap: false,
+    devServer: {
+        open: true
+    }
 };
