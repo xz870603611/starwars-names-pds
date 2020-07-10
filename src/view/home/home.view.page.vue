@@ -56,24 +56,72 @@
             // console.log(StringTool.stringSplit('a,b', ','));
             // console.log('------')
 
-            // console.log('ObjectTool');
-            // console.log('json对象转json字符串');
-            // console.log(ObjectTool.objectStringify({a: 1}))
-            // console.log('------')
-            //
-            console.log('ArrayTool')
-            console.log('数组转字符串');
-            console.log(ArrayTool.arrayJoin([1,2,3], '|'));
-            console.log('数组排序');
-            console.log(ArrayTool.arraySort([1, 2, 1.5], 'desc'))
-            console.log('数组对象排序')
-            console.log(ArrayTool.objectSort([{a: 2}, {a: 1}, {a: 1.5}], 'a', 'desc'))
+            console.log('ObjectTool');
+            console.log('json对象转json字符串');
+            console.log(ObjectTool.objectStringify({a: 1}))
+            console.log('删除空参数')
+            console.log(ObjectTool.deleteEmptyProperty({
+                b: 1,
+                a: 2,
+                e: null,
+                d: undefined,
+                f: '',
+                g: [],
+                i: {},
+                h: [1, 2],
+                c: {
+                    b: 1,
+                    a: 2,
+                    d: []
+                }
+            }))
+            console.log('对象ascii排序');
+            console.log(ObjectTool.sortAscii({
+                b: 1,
+                a: 2,
+                e: null,
+                d: undefined,
+                f: '',
+                g: [],
+                i: {},
+                h: [1, 2],
+                c: {
+                    b: 1,
+                    a: 2,
+                    d: [1]
+                }
+            }))
+            console.log('对象转url');
+            console.log(ObjectTool.jsonUrl({
+                b: 1,
+                a: 2,
+                e: null,
+                d: undefined,
+                f: '',
+                g: [],
+                i: {},
+                h: [1, 2],
+                c: {
+                    b: 1,
+                    a: 2,
+                    d: [1]
+                }
+            }))
             console.log('------')
+            //
+            // console.log('ArrayTool')
+            // console.log('数组转字符串');
+            // console.log(ArrayTool.arrayJoin([1,2,3], '|'));
+            // console.log('数组排序');
+            // console.log(ArrayTool.arraySort([1, 2, 1.5], 'desc'))
+            // console.log('数组对象排序')
+            // console.log(ArrayTool.objectSort([{a: 2}, {a: 1}, {a: 1.5}], 'a', 'desc'))
+            // console.log('------')
             // console.log('NumberTool');
             // console.log('保留多位小数');
             // console.log(NumberTool.fixDigits(1, 2));
-            console.log('去整数倍')
-            console.log(NumberTool.formatUnitDelete(1.7, 10));
+            // console.log('去整数倍')
+            // console.log(NumberTool.formatUnitDelete(1.7, 10));
             // console.log('分转元并保留2位小数');
             // console.log(NumberTool.formatPrice(1000, 1));
             // console.log('------')
