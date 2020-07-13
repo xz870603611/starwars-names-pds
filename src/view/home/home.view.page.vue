@@ -10,6 +10,9 @@
     import {ObjectTool} from 'pdstoolsdk';
     import {ArrayTool} from 'pdstoolsdk';
     import {NumberTool} from 'pdstoolsdk';
+    import {CacheTool} from 'pdstoolsdk';
+    import {DataTool} from 'pdstoolsdk';
+    import {UrlTool} from 'pdstoolsdk';
     export default {
         name: '',
         data() {
@@ -56,58 +59,58 @@
             // console.log(StringTool.stringSplit('a,b', ','));
             // console.log('------')
 
-            console.log('ObjectTool');
-            console.log('json对象转json字符串');
-            console.log(ObjectTool.objectStringify({a: 1}))
-            console.log('删除空参数')
-            console.log(ObjectTool.deleteEmptyProperty({
-                b: 1,
-                a: 2,
-                e: null,
-                d: undefined,
-                f: '',
-                g: [],
-                i: {},
-                h: [1, 2],
-                c: {
-                    b: 1,
-                    a: 2,
-                    d: []
-                }
-            }))
-            console.log('对象ascii排序');
-            console.log(ObjectTool.sortAscii({
-                b: 1,
-                a: 2,
-                e: null,
-                d: undefined,
-                f: '',
-                g: [],
-                i: {},
-                h: [1, 2],
-                c: {
-                    b: 1,
-                    a: 2,
-                    d: [1]
-                }
-            }))
-            console.log('对象转url');
-            console.log(ObjectTool.jsonUrl({
-                b: 1,
-                a: 2,
-                e: null,
-                d: undefined,
-                f: '',
-                g: [],
-                i: {},
-                h: [1, 2],
-                c: {
-                    b: 1,
-                    a: 2,
-                    d: [1]
-                }
-            }))
-            console.log('------')
+            // console.log('ObjectTool');
+            // console.log('json对象转json字符串');
+            // console.log(ObjectTool.objectStringify({a: 1}))
+            // console.log('删除空参数')
+            // console.log(ObjectTool.deleteEmptyProperty({
+            //     b: 1,
+            //     a: 2,
+            //     e: null,
+            //     d: undefined,
+            //     f: '',
+            //     g: [],
+            //     i: {},
+            //     h: [1, 2],
+            //     c: {
+            //         b: 1,
+            //         a: 2,
+            //         d: []
+            //     }
+            // }))
+            // console.log('对象ascii排序');
+            // console.log(ObjectTool.sortAscii({
+            //     b: 1,
+            //     a: 2,
+            //     e: null,
+            //     d: undefined,
+            //     f: '',
+            //     g: [],
+            //     i: {},
+            //     h: [1, 2],
+            //     c: {
+            //         b: 1,
+            //         a: 2,
+            //         d: [1]
+            //     }
+            // }))
+            // console.log('对象转url');
+            // console.log(ObjectTool.jsonUrl({
+            //     b: 1,
+            //     a: 2,
+            //     e: null,
+            //     d: undefined,
+            //     f: '',
+            //     g: [],
+            //     i: {},
+            //     h: [1, 2],
+            //     c: {
+            //         b: 1,
+            //         a: 2,
+            //         d: [1]
+            //     }
+            // }))
+            // console.log('------')
             //
             // console.log('ArrayTool')
             // console.log('数组转字符串');
@@ -116,6 +119,8 @@
             // console.log(ArrayTool.arraySort([1, 2, 1.5], 'desc'))
             // console.log('数组对象排序')
             // console.log(ArrayTool.objectSort([{a: 2}, {a: 1}, {a: 1.5}], 'a', 'desc'))
+            // console.log('向数组增加key');
+            // console.log(ArrayTool.addkey({data: [{a: 1}, {a: 21}, {a: 3}], page: 1, key: 'jbzKey'}));
             // console.log('------')
             // console.log('NumberTool');
             // console.log('保留多位小数');
@@ -125,6 +130,42 @@
             // console.log('分转元并保留2位小数');
             // console.log(NumberTool.formatPrice(1000, 1));
             // console.log('------')
+            // console.log('CacheTool');
+            // console.log('设置缓存');
+            // console.log(CacheTool.setCache('pds', false));
+            // console.log('获取缓存');
+            // console.log(CacheTool.getCache('pds'));
+            // console.log('删除缓存');
+            // console.log(CacheTool.delCache('pds1'));
+            // console.log('-------')
+            // console.log('DataTool');
+            // console.log(DataTool.formatData({
+            //     errorCode: 1,
+            //     message: '测试',
+            //     data: [{a:1, b: 2}, [0, 1]],
+            //     test: 123
+            // }))
+            // console.log('------')
+            console.log('对象转为url参数');
+            console.log(UrlTool.urlFromPortion({
+                baseUrl: 'https://www.baidu.com:8080',
+                subUrl: '/test',
+                params: {
+                    a: 1,
+                    b:2,
+                    c: [0, 1, 2],
+                    d: '1,2,3',
+                    e: undefined,
+                    f: null,
+                    g: '',
+                    h: '  '
+                }
+            }));
+            console.log('解析url对象');
+            console.log(UrlTool.portionFromUrl('' +
+                'https://www.baidu.com:8080/?aaa=111#?bbb=222/test?inType=1&a=1&b=1,2,3'));
+            console.log(UrlTool.portionFromUrl('' +
+                'https://www.baidu.com:8080/test?inType=1&a=1&b=1,2,3'))
         }
     }
 </script>

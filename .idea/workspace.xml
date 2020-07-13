@@ -1,93 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf95ac36-a8f3-424f-b619-0da7a79ac8ba" name="Default Changelist" comment="">
+    <list default="true" id="b61fe506-c751-4e09-a4c6-56561274f36d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pdstoolsdk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pdstoolsdk/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/home/home.view.page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/home/home.view.page.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>dev</find>
-      <find>rollup</find>
-      <find>options</find>
-      <find>exports</find>
-      <find>nodeResolve</find>
-      <find>rollup-plugin-eslint</find>
-      <find>plugins</find>
-      <find>basePlugins</find>
-      <find>uglify</find>
-      <find>JToolDate</find>
-      <find>DateTool</find>
-      <find>JToolUrl</find>
-      <find>babel.config</find>
-      <find>ba</find>
-      <find>cli-plugin-babel</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="feature/1.0.1-tool" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1e20LFyYGXGD3E3uc6HzX9qpyjW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1eTc8PbjcarMOF6PK4ydTyDTTGN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.4.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\jbzPublic\starwars-names-pds\src" />
-      <recent name="D:\jbzPublic\starwars-names-pds\config" />
-      <recent name="D:\jbzPublic\starwars-names-pds" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\jbzPublic\starwars-names-pds" />
-      <recent name="D:\jbzPublic\starwars-names-pds\config" />
-    </key>
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RunManager">
     <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
@@ -106,260 +49,63 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf95ac36-a8f3-424f-b619-0da7a79ac8ba" name="Default Changelist" comment="" />
-      <created>1588218069912</created>
+      <changelist id="b61fe506-c751-4e09-a4c6-56561274f36d" name="Default Changelist" comment="" />
+      <created>1594348863605</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588218069912</updated>
-      <workItem from="1588218071169" duration="6493000" />
-      <workItem from="1588234942116" duration="3999000" />
-      <workItem from="1588241648152" duration="314000" />
-      <workItem from="1588242057000" duration="11000" />
-      <workItem from="1588745864061" duration="8064000" />
-      <workItem from="1588754191681" duration="7299000" />
-      <workItem from="1588816471022" duration="12406000" />
-      <workItem from="1588920128514" duration="4539000" />
-      <workItem from="1588928906399" duration="131000" />
-      <workItem from="1588929355712" duration="592000" />
-      <workItem from="1588929986950" duration="25000" />
-      <workItem from="1588931696307" duration="174000" />
-      <workItem from="1588934119105" duration="1255000" />
-      <workItem from="1588935891864" duration="85000" />
-      <workItem from="1588990569842" duration="15058000" />
-      <workItem from="1589162141364" duration="541000" />
-      <workItem from="1593512121778" duration="33000" />
-      <workItem from="1593588325530" duration="634000" />
-      <workItem from="1593742451385" duration="2655000" />
-      <workItem from="1594018180279" duration="6168000" />
+      <updated>1594348863605</updated>
+      <workItem from="1594348866011" duration="7644000" />
+      <workItem from="1594606997158" duration="8323000" />
     </task>
-    <task id="LOCAL-00001" summary="创建仓库">
-      <created>1588218106266</created>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1594375810674</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1588218106266</updated>
+      <updated>1594375810674</updated>
     </task>
-    <task id="LOCAL-00002" summary="创建仓库">
-      <created>1588218346697</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1588218346697</updated>
-    </task>
-    <task id="LOCAL-00003" summary="获取文件内容">
-      <created>1588226857896</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1588226857896</updated>
-    </task>
-    <task id="LOCAL-00004" summary="增加gitignore">
-      <created>1588227447028</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588227447028</updated>
-    </task>
-    <task id="LOCAL-00005" summary="增加gitignore">
-      <created>1588227715314</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1588227715314</updated>
-    </task>
-    <task id="LOCAL-00006" summary="增加gitignore">
-      <created>1588227769453</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1588227769453</updated>
-    </task>
-    <task id="LOCAL-00007" summary="增加gitignore">
-      <created>1588227908571</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1588227908571</updated>
-    </task>
-    <task id="LOCAL-00008" summary="增加gitignore">
-      <created>1588240826357</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1588240826357</updated>
-    </task>
-    <task id="LOCAL-00009" summary="1">
-      <created>1588745900040</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1588745900040</updated>
-    </task>
-    <task id="LOCAL-00010" summary="删除文件重新搭建">
-      <created>1588746021797</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1588746021797</updated>
-    </task>
-    <task id="LOCAL-00011" summary="提交 README.MD">
-      <created>1588746147955</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1588746147955</updated>
-    </task>
-    <task id="LOCAL-00012" summary="增加gitignore">
-      <created>1588746524397</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1588746524397</updated>
-    </task>
-    <task id="LOCAL-00013" summary="rollup的基本使用">
-      <created>1588832446597</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1588832446597</updated>
-    </task>
-    <task id="LOCAL-00014" summary="删除文件编写自己的rollup插件">
-      <created>1588832530619</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1588832530619</updated>
-    </task>
-    <task id="LOCAL-00015" summary="删除文件">
-      <created>1588836338694</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1588836338694</updated>
-    </task>
-    <task id="LOCAL-00016" summary="框架搭建">
-      <created>1588926389177</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1588926389177</updated>
-    </task>
-    <task id="LOCAL-00017" summary="框架搭建">
-      <created>1588927345438</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1588927345438</updated>
-    </task>
-    <task id="LOCAL-00018" summary="框架搭建">
-      <created>1588929411037</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1588929411037</updated>
-    </task>
-    <task id="LOCAL-00019" summary="创建vue 测试项目">
-      <created>1589013624293</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1589013624293</updated>
-    </task>
-    <task id="LOCAL-00020" summary="创建vue 测试项目">
-      <created>1589015531651</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1589015531651</updated>
-    </task>
-    <task id="LOCAL-00021" summary="创建vue 测试项目">
-      <created>1589016308879</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1589016308879</updated>
-    </task>
-    <task id="LOCAL-00022" summary="增加vue.config.js">
-      <created>1589017106587</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1589017106587</updated>
-    </task>
-    <task id="LOCAL-00023" summary="增加vue.config.js">
-      <created>1589019372023</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1589019372023</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建仓库" />
-    <MESSAGE value="获取文件内容" />
-    <MESSAGE value="1" />
-    <MESSAGE value="删除文件重新搭建" />
-    <MESSAGE value="提交 README.MD" />
-    <MESSAGE value="增加gitignore" />
-    <MESSAGE value="rollup的基本使用" />
-    <MESSAGE value="删除文件编写自己的rollup插件" />
-    <MESSAGE value="删除文件" />
-    <MESSAGE value="框架搭建" />
-    <MESSAGE value="创建vue 测试项目" />
-    <MESSAGE value="增加vue.config.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加vue.config.js" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1379" height="253" key="GridCell.Tab.0.bottom" timestamp="1594019355608">
+    <state x="627" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594348890087">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1379" height="253" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1594019355608" />
-    <state width="1379" height="253" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1593509325816" />
-    <state width="1379" height="253" key="GridCell.Tab.0.center" timestamp="1594019355607">
+    <state x="627" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.977@0.23.1920.977" timestamp="1594348890087" />
+    <state x="801" y="23" key="CommitChangelistDialog2" timestamp="1594375810278">
+      <screen x="0" y="23" width="1920" height="978" />
+    </state>
+    <state x="801" y="23" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1594375810278" />
+    <state width="1167" height="165" key="GridCell.Tab.0.bottom" timestamp="1594607790263">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1379" height="253" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1594019355607" />
-    <state width="1379" height="253" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1593509325815" />
-    <state width="1379" height="253" key="GridCell.Tab.0.left" timestamp="1594019355607">
+    <state width="1167" height="165" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1594607790263" />
+    <state width="1167" height="165" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1594375820770" />
+    <state width="1167" height="165" key="GridCell.Tab.0.center" timestamp="1594607790262">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1379" height="253" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1594019355606" />
-    <state width="1379" height="253" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1593509325815" />
-    <state width="1379" height="253" key="GridCell.Tab.0.right" timestamp="1594019355607">
+    <state width="1167" height="165" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1594607790262" />
+    <state width="1167" height="165" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1594375820766" />
+    <state width="1167" height="165" key="GridCell.Tab.0.left" timestamp="1594607790262">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1379" height="253" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1594019355607" />
-    <state width="1379" height="253" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1593509325816" />
+    <state width="1167" height="165" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1594607790262" />
+    <state width="1167" height="165" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1594375820760" />
+    <state width="1167" height="165" key="GridCell.Tab.0.right" timestamp="1594607790263">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1167" height="165" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1594607790263" />
+    <state width="1167" height="165" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1594375820769" />
+    <state x="794" y="141" key="Vcs.Push.Dialog.v2" timestamp="1594375811670">
+      <screen x="0" y="23" width="1920" height="978" />
+    </state>
+    <state x="794" y="141" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1594375811670" />
   </component>
 </project>
