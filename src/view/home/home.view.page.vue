@@ -146,26 +146,27 @@
             //     test: 123
             // }))
             // console.log('------')
-            console.log('对象转为url参数');
-            console.log(UrlTool.urlFromPortion({
-                baseUrl: 'https://www.baidu.com:8080',
-                subUrl: '/test',
-                params: {
-                    a: 1,
-                    b:2,
-                    c: [0, 1, 2],
-                    d: '1,2,3',
-                    e: undefined,
-                    f: null,
-                    g: '',
-                    h: '  '
-                }
-            }));
+            console.log('UrlTool');
+            // console.log('对象转为url参数');
+            // console.log(UrlTool.urlFromPortion({
+            //     baseUrl: 'https://www.baidu.com:8080',
+            //     subUrl: '/test',
+            //     params: {
+            //         a: 1,
+            //         b:2,
+            //         c: [0, 1, 2],
+            //         d: '1,2,3',
+            //         e: undefined,
+            //         f: null,
+            //         g: '',
+            //         h: '  '
+            //     }
+            // }));
             console.log('解析url对象');
             console.log(UrlTool.portionFromUrl('' +
-                'https://www.baidu.com:8080/?aaa=111#?bbb=222/test?inType=1&a=1&b=1,2,3'));
+                'https://www.baidu.com:8080/?aaa=111#/test?inType=1&a=1&b=1,2,3', {complete: true}));
             console.log(UrlTool.portionFromUrl('' +
-                'https://www.baidu.com:8080/test?inType=1&a=1&b=1,2,3'))
+                'https://www.baidu.com:8080/test?inType=1&a=1&b=1,2,3'));
         }
     }
 </script>
