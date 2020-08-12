@@ -5,9 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "node ./build/build.js dev",
+    "pdstoolsdk": "node ./build/build.js"
   },
   "dependencies": {
+    "pdstoolsdk": "git+https://github.com/xz870603611/pdstoolsdk.git#feature/1.0.4-git",
     "core-js": "^3.6.4",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
