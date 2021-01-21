@@ -5186,6 +5186,11 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npm.taobao.org/lines-and-columns/download/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
+link@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.npm.taobao.org/link/download/link-0.1.5.tgz#7fc7aa5bd3f6ac5a19c5255a23f4207d6852e92e"
+  integrity sha1-f8eqW9P2rFoZxSVaI/QgfWhS6S4=
+
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/load-json-file/download/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -6306,9 +6311,10 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-"pdstoolsdk@git+https://github.com/xz870603611/pdstoolsdk.git#feature/1.0.4-git":
-  version "1.0.14"
-  resolved "git+https://github.com/xz870603611/pdstoolsdk.git#38cf4f7da0cbb21fc3f9f8698fd9cdbc3c9e95d1"
+pdstoolsdk@^1.0.15:
+  version "1.0.15"
+  resolved "https://registry.npm.taobao.org/pdstoolsdk/download/pdstoolsdk-1.0.15.tgz#673c2a70183d6fd8daf4ae3b966fb2bbea51a364"
+  integrity sha1-ZzwqcBg9b9ja9K47lm+yu+pRo2Q=
   dependencies:
     "@babel/core" "^7.10.5"
     "@babel/preset-env" "^7.10.4"

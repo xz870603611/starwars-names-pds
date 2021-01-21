@@ -10,9 +10,10 @@
     "pdstoolsdk": "node ./build/build.js"
   },
   "dependencies": {
-    "pdstoolsdk": "git+https://github.com/xz870603611/pdstoolsdk.git#feature/1.0.4-git",
     "core-js": "^3.6.4",
+    "link": "^0.1.5",
     "node-sass": "^4.14.1",
+    "pdstoolsdk": "^1.0.15",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6"
